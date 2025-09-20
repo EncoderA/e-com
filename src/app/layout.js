@@ -1,14 +1,12 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
+import { SidebarProvider } from "@/context/SidebarProvider";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const poppins = Poppins({
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-poppins",
 });
 
 export const metadata = {
@@ -17,12 +15,15 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning className="light">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+        className={`${poppins.variable} font-snas antialiased`}
+        suppressHydrationWarning>
+        <SidebarProvider>
+          {children}
+        </SidebarProvider>
       </body>
     </html>
   );
