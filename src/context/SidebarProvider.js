@@ -148,7 +148,7 @@ export const SidebarProvider = ({ children }) => {
       }
 
       setFilteredProducts(filtered);
-      setCurrentPage(1); // Reset to first page when filtering
+      setCurrentPage(1); 
     }
   }, [products, filters.categories, filters.brands]);
 

@@ -11,7 +11,7 @@
     "colors": ["Black", "White", "Red"],
     "category": "Sneakers",
     "brand": "Nike",
-    "imageUrl": "/1.png"
+    "imageUrl": "/1.webp"
   },
   {
     "id": "2",
@@ -25,7 +25,7 @@
     "colors": ["Core Black", "Cloud White", "Solar Yellow"],
     "category": "Sneakers",
     "brand": "Adidas",
-    "imageUrl": "/2.png"
+    "imageUrl": "/2.webp"
   },
   {
     "id": "3",
@@ -39,7 +39,7 @@
     "colors": ["White", "Blue", "Red"],
     "category": "Sneakers",
     "brand": "Puma",
-    "imageUrl": "/3.png"
+    "imageUrl": "/3.webp"
   },
   {
     "id": "4",
@@ -53,7 +53,7 @@
     "colors": ["Grey", "Navy", "Burgundy"],
     "category": "Sneakers",
     "brand": "New Balance",
-    "imageUrl": "4.png"
+    "imageUrl": "4.webp"
   },
   {
     "id": "5",
@@ -67,7 +67,7 @@
     "colors": ["Parchment", "Black", "Sunflower Gold"],
     "category": "Sneakers",
     "brand": "Converse",
-    "imageUrl": "5.png"
+    "imageUrl": "5.webp"
   },
   {
     "id": "6",
@@ -81,7 +81,7 @@
     "colors": ["Black", "White", "Navy"],
     "category": "Sneakers",
     "brand": "Vans",
-    "imageUrl": "6.png"
+    "imageUrl": "6.webp"
   },
   {
     "id": "7",
