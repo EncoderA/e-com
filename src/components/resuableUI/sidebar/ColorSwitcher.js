@@ -29,7 +29,7 @@ export default function ColorSwitcher() {
         >
           <button
             onClick={() => setCurrentColor(color.name)}
-            className="w-4 h-4 rounded-full"
+            className="w-4 h-4 rounded-full cursor-pointer"
             style={{ backgroundColor: color.value }}
             title={color.name}
           />
